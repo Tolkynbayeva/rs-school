@@ -1,0 +1,73 @@
+@media (max-width: 1140px) {
+  body {
+    overflow: visible;
+  }
+  
+  .wrapper {
+    padding: 50px;
+  }
+
+  .hangman-image{
+    width: 250px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 25px;
+  }
+
+  .game-container {
+    flex-direction: column;
+  }
+
+  .hint-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 435px) {
+  .image-container {
+    width: 310px;
+    height: 458px;
+  }
+
+  .head {
+    width: 80px;
+    height: 80px;
+    top: 28%;
+    right: 2%;
+  }
+
+  .body {
+    height: 100px;
+    top: 45%;
+    right: 15%;
+  }
+
+  .handOne {
+    height: 70px;
+    top: 45%;
+    right: 23%;
+  }
+
+  .handTwo {
+    height: 70px;
+    top: 45%;
+    right: 7%;
+  }
+
+  .legOne {
+    height: 70px;
+    top: 64%;
+    right: 22%;
+  }
+
+  .legTwo {
+    height: 70px;
+    top: 64%;
+    right: 8%;
+  }
+
+}
